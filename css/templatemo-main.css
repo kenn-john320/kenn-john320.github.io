@@ -322,6 +322,12 @@ nav a:hover::before {
 	color: #232323!important;
 }
 
+.new-button a:hover {
+	background-color: #fff;
+	color: #232323!important;
+}
+
+
 
 .first-content {
 	padding: 100px;
@@ -371,6 +377,12 @@ nav a:hover::before {
 	margin-right: 15px;
 }
 
+.first-content .new-button {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+
 .first-content .main-btn a {
 	display: inline-block;
 	border: 2px solid #fff;
@@ -383,6 +395,21 @@ nav a:hover::before {
 	transition: all 0.5s;
 	transition: all 0.5s;
 }
+
+.first-content .new-button a {
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s;
+	transition: all 0.5s;
+
+}
+
 
 .first-content .fb-btn {
 	display: inline-block;
@@ -468,6 +495,19 @@ nav a:hover::before {
 	transition: all 0.5s;
 }
 
+.second-content .new-button a {
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+
 
 .third-content {
 	text-align: left;
@@ -534,6 +574,19 @@ nav a:hover::before {
 	text-decoration: none;
 	transition: all 0.5s;
 }
+
+.third-content .new-button a {
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
 
 .third-content .col-md-6 {
 	margin: 0px;
@@ -810,6 +863,12 @@ nav a:hover::before {
 	}
 
 	.first-content .main-btn {
+		display: inline-block;
+		margin-right: 0px;
+		margin-bottom: 15px;
+	}
+
+	.first-content .new-button {
 		display: inline-block;
 		margin-right: 0px;
 		margin-bottom: 15px;
