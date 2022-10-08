@@ -42,6 +42,7 @@ jQuery(document).ready(function($) {
         }
         
         $('nav a, .main-btn a').click(function(e) {
+            
             if(!$(this).attr('href').startsWith("#")){
                 return;
               }
