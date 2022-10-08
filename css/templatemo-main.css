@@ -1,6 +1,6 @@
-/* 
+/*
 
-Moonlight Template 
+Moonlight Template
 
 https://templatemo.com/tm-512-moonlight
 
@@ -10,7 +10,7 @@ https://templatemo.com/tm-512-moonlight
   50% {
     opacity: 1;
   }
-  
+
   100% {
     opacity: 0;
   }
@@ -561,6 +561,23 @@ nav a:hover::before {
 	font-weight: 300;
 	line-height: 24px;
 	margin-bottom: 20px;
+}
+
+.btn-wrap {
+  display: flex;
+  gap: 8px;
+}
+
+.nice-btn {
+  display: inline-block;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s;
 }
 
 .third-content .main-btn a {
