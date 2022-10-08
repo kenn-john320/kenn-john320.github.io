@@ -42,6 +42,9 @@ jQuery(document).ready(function($) {
         }
         
         $('nav a, .main-btn a').click(function(e) {
+            if(!$(this).attr('href').startsWith("#")){
+                return;
+              }
             // When link clicked, find slide it points to
             var newslide = parseInt($(this).attr('href')[1]);
             // find how far it is from current slide
