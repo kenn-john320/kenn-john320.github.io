@@ -337,7 +337,6 @@ nav a:hover::before {
 
 .first-content .author-image img {
 	margin-top: -4em;
-	margin-bottom: 500px;
 	border-radius: 30px;
 	width: 500px;
 	max-width: 150%;
@@ -354,10 +353,9 @@ nav a:hover::before {
 	letter-spacing: 0.5px;
 	border-bottom: 2px solid #fff;
 	display: inline-block;
-	padding-bottom: 10px;
-	margin-bottom: 20px;
 	margin-right: auto;
 	margin-top: 0px;
+	margin-left: 3em;
 }
 
 .first-content p {
@@ -368,11 +366,13 @@ nav a:hover::before {
 	letter-spacing: 2px;
 	line-height: 26px;
 	margin-bottom: 20px;
+	margin-left: 12em;
 }
 
 .first-content em {
 	font-style: normal;
 	font-weight: 600;
+	margin-left: 12em;
 }
 
 .first-content .main-btn {
@@ -397,6 +397,7 @@ nav a:hover::before {
 	text-decoration: none;
 	transition: all 0.5s;
 	transition: all 0.5s;
+	margin-left: 20em;
 }
 
 .first-content .new-button a {
@@ -416,6 +417,7 @@ nav a:hover::before {
 
 .first-content .fb-btn {
 	display: inline-block;
+	margin-left: 2em;
 }
 
 .first-content .fb-btn a {
