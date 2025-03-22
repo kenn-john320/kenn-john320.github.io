@@ -11,7 +11,7 @@ const ContactPage: React.FC<IProps> = ({
 }) => {
     return (
         <div>
-
+            This is the contact page.
         </div>
     )
 }
