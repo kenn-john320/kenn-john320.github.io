@@ -1,19 +1,19 @@
 import * as React from 'react'
 
 interface IProps {
-    text: string
+  
 }
 
 
 
-const Skills: React.FC<IProps> = ({
+const ContactSection: React.FC<IProps> = ({
 
 }) => {
     return (
         <div>
-
+            This is the Contact Page.
         </div>
     )
 }
 
-export default Skills
+export default ContactSection

@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 interface IProps {
-    text: string
+
 }
 
 
@@ -11,7 +11,7 @@ const Projects: React.FC<IProps> = ({
 }) => {
     return (
         <div>
-
+            This is the Project Page
         </div>
     )
 }

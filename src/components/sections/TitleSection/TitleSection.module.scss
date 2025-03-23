@@ -1,0 +1,22 @@
+.title-section {
+    min-height: calc(100vh - 4.5rem);
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    color: #4a6395; /* Use your theme color here */
+    padding: 2rem 0;
+    
+    @media (min-width: 768px) { // Adjust based on your breakpoints
+        padding: 4rem 0;
+    }
+    .title-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 95%;
+        
+        @media (min-width: 576px) {
+          width: 90%;
+        }
+      }
+}
