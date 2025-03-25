@@ -1,14 +1,6 @@
 import * as React from 'react'
 
-interface IProps {
-
-}
-
-
-
-const Projects: React.FC<IProps> = ({
-
-}) => {
+const ProjectSection: React.FC = () => {
     return (
         <div>
             This is the Project Page
@@ -16,4 +8,4 @@ const Projects: React.FC<IProps> = ({
     )
 }
 
-export default Projects
+export default ProjectSection

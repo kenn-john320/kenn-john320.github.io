@@ -12,9 +12,12 @@ const TitleSection: React.FC = () => {
                             Hello! 
                             My name is Kennedy Johnson
                         </h1>
-                        <h2>
+                        <h3>
                             Software Engineer
-                        </h2>
+                        </h3>
+                        <p>
+                            Just a full stack developer in the making
+                        </p>
                     </div>
                 </div>
             </div>
