@@ -1,22 +1,40 @@
-.title-section {
-    min-height: calc(100vh - 4.5rem);
-    display: flex;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-    color: #4a6395; /* Use your theme color here */
-    padding: 2rem 0;
+.titleSection {
+  min-height: calc(100vh - 4.5rem);
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  // color: ${theme.colors.textLight}; // Change colors
+  // padding: ${theme.spacing.lg} 0; // Change 
+
+  // @media (min-width: ${theme.breakpoints.md}) {
+  //   padding: ${theme.spacing.xl} 0;
+  // }
+
+  .titleContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 95%;
     
-    @media (min-width: 768px) { // Adjust based on your breakpoints
-        padding: 4rem 0;
-    }
-    .title-container {
-        max-width: 1200px;
-        margin: 0 auto;
-        width: 95%;
-        
-        @media (min-width: 576px) {
-          width: 90%;
-        }
-      }
+    // @media (min-width: ${theme.breakpoints.sm}) {
+    //   width: 90%;
+    // }
+  }
+}
+
+.titleContent {
+  position: relative;
+  z-index: 1;
+  max-width: 1000px;
+  width: 100%;
+  // background: ${theme.colors.glass.background};
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  // padding: ${theme.spacing.lg};
+  border: none;
+
+  // @media (min-width: ${theme.breakpoints.md}) {
+  //   padding: ${theme.spacing.xl};
+  // }
+
 }

@@ -1,18 +1,18 @@
 import * as React from 'react'
-import './TitleSection.module.scss'
+import styles from './TitleSection.module.scss'
 
 const TitleSection: React.FC = () => {
 
     return (
-        <section className={`TitleSection}`}>
-            <div className="title-container">
-                <div className='title-content'>
+        <section className={`${styles.titleSection}`}>
+            <div className={`${styles.titleContainer}`}>
+                <div className={`${styles.titleContent}`}>
                     <div>
                         <h1 className='intro-title'>
                             Hello! 
                             My name is Kennedy Johnson
                         </h1>
-                        <h3>
+                        <h3 className='subtitle'>
                             Software Engineer
                         </h3>
                         <p>
@@ -24,14 +24,6 @@ const TitleSection: React.FC = () => {
 
 
         </section>
-
-        // <div>
-        //     This is the Title Page
-        //     {/* <TitleSection>
-
-
-        //     </TitleSection> */}
-        // </div>
     )
 }
     
