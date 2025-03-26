@@ -1,5 +1,5 @@
 import * as React from 'react'
-
+import styles from './SkillSection.module.scss'
 
 const SkillSection: React.FC = () => {
     return (
