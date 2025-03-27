@@ -1,7 +1,14 @@
 import * as React from 'react'
 import styles from './ProjectSection.module.scss'
+import ProjectCard from '../../Cards/ProjectCard/ProjectCard'
 
-const ProjectSection: React.FC = () => {
+interface IProps {
+    title: string
+}
+
+const ProjectSection: React.FC<IProps> = ({
+    title
+    }) => {
     return (
         <section className={`${styles.sectionTitle}`}>
             <div className={`${styles.container}`}>
@@ -9,9 +16,14 @@ const ProjectSection: React.FC = () => {
                     This is the Project Page
                 </h3>
             
-            <div className={`${styles.projectTitle}`}>
-                Featured Projects
-            </div>    
+                <div className={`${styles.projectTitle}`}>
+                    Featured Projects
+                </div>    
+                <div className={`${styles.projectGrid}`}>
+                    <ProjectCard title={'Test One'}/>
+                    <ProjectCard title={'Test Two'}/>
+                    <ProjectCard title={'Test Three'}/>
+                </div>
             </div>
             
 

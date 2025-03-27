@@ -18,3 +18,17 @@
 //   color: ${theme.colors.light};
   font-weight: 600;
 }
+
+
+.projectGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+    // gap: ${theme.spacing.lg};
+    width: 100%;
+    // margin-top: ${theme.spacing.lg};
+  
+    // @media (min-width: ${theme.breakpoints.md}) {
+    //   gap: ${theme.spacing.xl};
+    //   margin-top: ${theme.spacing.xl};
+    // }
+}
