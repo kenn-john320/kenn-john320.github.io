@@ -1,0 +1,20 @@
+.sectionTitle{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    // padding: ${theme.spacing.lg} 0;
+
+    // @media (min-width: ${theme.breakpoints.md}) {
+    //     padding: ${theme.spacing.xl} 0;
+    // }
+
+}
+
+.title {
+//   font-size: clamp(1.25rem, 3vw, 1.5rem);
+//   margin-bottom: ${theme.spacing.sm};
+//   color: ${theme.colors.light};
+  font-weight: 600;
+}
