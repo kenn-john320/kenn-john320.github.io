@@ -46,3 +46,13 @@
   opacity: 0.9;
   font-weight: 500;
 }
+
+.subtitle {
+  // animation: ${fadeUpKeyframes} 0.5s ease-out 0.2s forwards;
+  opacity: 0;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  // margin-bottom: ${theme.spacing.lg};
+  opacity: 0.9;
+  font-weight: 500;
+}
+

@@ -3,9 +3,14 @@ import styles from './ProjectSection.module.scss'
 
 const ProjectSection: React.FC = () => {
     return (
-        <div>
-            This is the Project Page
-        </div>
+        <section>
+
+            <div className=''>
+                This is the Project Page
+            </div>
+
+        </section>
+
     )
 }
 
