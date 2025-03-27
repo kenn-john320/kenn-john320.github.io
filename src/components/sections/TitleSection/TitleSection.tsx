@@ -4,18 +4,18 @@ import styles from './TitleSection.module.scss'
 const TitleSection: React.FC = () => {
 
     return (
-        <section className={`${styles.titleSection}`}>
-            <div className={`${styles.titleContainer}`}>
-                <div className={`${styles.titleContent}`}>
+        <section className={`${styles.section}`}>
+            <div className={`${styles.container}`}>
+                <div className={`${styles.content}`}>
                     <div>
-                        <h1 className='intro-title'>
+                        <h1 className={`${styles.title}`}>
                             Hello! 
                             My name is Kennedy Johnson
                         </h1>
-                        <h3 className='subtitle'>
+                        <h3 className={`${styles.subtitle}`}>
                             Software Engineer
                         </h3>
-                        <p>
+                        <p className={`${styles.description}`}>
                             Just a full stack developer in the making
                         </p>
                     </div>

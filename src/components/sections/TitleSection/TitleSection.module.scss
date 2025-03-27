@@ -1,4 +1,4 @@
-.titleSection {
+.section {
   min-height: calc(100vh - 4.5rem);
   display: flex;
   align-items: center;
@@ -11,7 +11,7 @@
   //   padding: ${theme.spacing.xl} 0;
   // }
 
-  .titleContainer {
+  .container {
     max-width: 1200px;
     margin: 0 auto;
     width: 95%;
@@ -22,7 +22,7 @@
   }
 }
 
-.titleContent {
+.content {
   position: relative;
   z-index: 1;
   max-width: 1000px;
@@ -36,5 +36,13 @@
   // @media (min-width: ${theme.breakpoints.md}) {
   //   padding: ${theme.spacing.xl};
   // }
+}
 
+.description {
+  // animation: ${fadeUpKeyframes} 0.5s ease-out 0.2s forwards;
+  opacity: 0;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  // margin-bottom: ${theme.spacing.lg};
+  opacity: 0.9;
+  font-weight: 500;
 }
