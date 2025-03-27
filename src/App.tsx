@@ -9,7 +9,7 @@ import ProjectSection from './components/Sections/ProjectSection/ProjectSection'
 // Lazy load non-critical components 
 // NTS: Lazy loading -> Certain elements are loaded when 
 //                      they are needed by the user
-const Projects = lazy(() => import('./components/Sections/ProjectSection/ProjectSection'));
+// const ProjectSection = lazy(() => import('./components/Sections/ProjectSection/ProjectSection'));
 const Skills = lazy(() => import('./components/Sections/SkillSection/SkillSection'));
 const Contact = lazy(() => import('./components/Sections/ContactSection/ContactSection'));
 
