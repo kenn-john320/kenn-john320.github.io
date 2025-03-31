@@ -10,6 +10,8 @@ interface IProps {
 }
 
 
+
+
 const ProjectCard: React.FC<IProps> = ({
     title,
     action
@@ -24,6 +26,11 @@ const ProjectCard: React.FC<IProps> = ({
                     This is where the information will go
                 </p>
             </div>
+            <a
+                href='example.com'
+                >
+                    Github Repo
+            </a>
         </div>
     )
 }
