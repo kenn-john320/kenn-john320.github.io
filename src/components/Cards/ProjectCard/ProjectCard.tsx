@@ -10,27 +10,23 @@ interface IProps {
 }
 
 
-
-
 const ProjectCard: React.FC<IProps> = ({
     title,
     action
 }) => {
     return (
         <div className={`${styles.card}`}>
-            <h3>
+            <h3 className={`${styles.cardTitle}`}>
                 {title}
             </h3>
-            <div>
+            <div className={`${styles.description}`}>
                 <p>
                     This is where the information will go
                 </p>
             </div>
-            <a
-                href='example.com'
-                >
-                    Github Repo
-            </a>
+            <div className={`${styles.links}`}>
+                Github
+            </div>
         </div>
     )
 }
