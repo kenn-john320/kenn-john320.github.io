@@ -1,0 +1,30 @@
+:root {
+    --main-palette-100: #ffffff;
+    --main-palette-200: #b7b7b7;
+    --main-palette-300: #8a8a8a;
+    --main-palette-400: #4e4e4e;
+    --main-palette-500: #000000;
+
+
+    --background-primary: #FFFFFF;
+    --background-secondary: #EAF0FB;
+    
+
+    
+    // text-spacing: {
+    //     type-sm: .5rem;
+    //     type-md: 1rem;
+    //     type-lg: 2rem;
+    // }
+}
+
+
+// Color Tokens
+
+
+// primary colors
+$main-100: var(--main-palette-100);
+$main-200: var(--main-palette-200);
+$main-300: var(--main-palette-300);
+$main-400: var(--main-palette-400);
+$main-500: var(--main-palette-500);

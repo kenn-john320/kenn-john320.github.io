@@ -1,4 +1,6 @@
-.sectionTitle{
+@import 'src/assets/stylesheets/tokens';
+
+.projectSection{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -12,9 +14,10 @@
 
 }
 
-.title {
+.sectionTitle {
+  // @include type-sm;
 //   font-size: clamp(1.25rem, 3vw, 1.5rem);
-//   margin-bottom: ${theme.spacing.sm};
+  margin-bottom: lg;
 //   color: ${theme.colors.light};
   font-weight: 600;
 }

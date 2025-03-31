@@ -1,6 +1,6 @@
 import {lazy, Suspense} from 'react'
 import { ThemeProvider } from '@emotion/react'
-import './App.css';
+import './App.module.css';
 import { react } from '@babel/types';
 import Title from './components/Sections/TitleSection/TitleSection';
 import ProjectSection from './components/Sections/ProjectSection/ProjectSection';
@@ -17,11 +17,10 @@ const Contact = lazy(() => import('./components/Sections/ContactSection/ContactS
 function App() {
   return (
     <div>
-      Hello there!
       <Title/>
       <Skills/>
       <ProjectSection
-        title="Project One"
+        title="Project Section"
       />
       <Contact/>
 

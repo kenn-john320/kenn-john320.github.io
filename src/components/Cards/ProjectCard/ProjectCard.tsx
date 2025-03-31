@@ -16,9 +16,9 @@ const ProjectCard: React.FC<IProps> = ({
 }) => {
     return (
         <div className={`${styles.card}`}>
-            <h2>
+            <h3>
                 {title}
-            </h2>
+            </h3>
             <div>
                 <p>
                     This is where the information will go

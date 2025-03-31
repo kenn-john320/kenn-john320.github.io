@@ -10,15 +10,11 @@ const ProjectSection: React.FC<IProps> = ({
     title
     }) => {
     return (
-        <section className={`${styles.sectionTitle}`}>
+        <section className={`${styles.projectSection}`}>
             <div className={`${styles.container}`}>
-                <h3 className={`${styles.title}`}>
-                    This is the Project Page
-                </h3>
-            
-                <div className={`${styles.projectTitle}`}>
+                <h2 className={`${styles.sectionTitle}`}>
                     Featured Projects
-                </div>    
+                </h2>  
                 <div className={`${styles.projectGrid}`}>
                     <ProjectCard title={'Test One'}/>
                     <ProjectCard title={'Test Two'}/>
