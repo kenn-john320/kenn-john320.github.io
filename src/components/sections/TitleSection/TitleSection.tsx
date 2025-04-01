@@ -21,8 +21,17 @@ const TitleSection: React.FC = () => {
                             Just a full stack developer in the making
                         </p>
                         <div className={`${styles.socialMedia}`}>
-                            <a>
-
+                            <a 
+                                href='example.com'>
+                                Linkedin
+                            </a>
+                            <a
+                                href='example.com'>
+                                Github
+                            </a>
+                            <a
+                                href='example.com'>
+                                Email
                             </a>
                         </div>
                     </div>

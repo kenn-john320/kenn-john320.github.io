@@ -8,12 +8,13 @@
     --main-palette-600: #3f3381;
     --main-palette-700: #1d1f5a;
 
-
-
+    
+    
+    
+    // Current Theme
     --background-primary: #101c29;
     --background-secondary: #0a1c3d;
-    
-
+    --main-text-primary: #cba2ea;
     
     // text-spacing: {
     //     type-sm: .5rem;
@@ -23,7 +24,7 @@
 }
 
 
-// Color Tokens
+// ~~~~~~ Color Tokens ~~~~~~~
 
 
 // primary colors
@@ -38,3 +39,4 @@ $main-500: var(--main-palette-500);
 // background colors
 $main-background-primary: var(--background-primary);
 $main-background-secondary: var(--background-secondary);
+$main-text-primary: var(--main-text-primary);
