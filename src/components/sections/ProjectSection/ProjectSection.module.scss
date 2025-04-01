@@ -1,6 +1,7 @@
 @import 'src/assets/stylesheets/tokens';
 
 .projectSection{
+    background-color: $main-background-primary;
     min-height: 100vh;
     display: flex;
     flex-direction: column;

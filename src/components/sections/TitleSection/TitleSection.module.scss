@@ -1,4 +1,8 @@
+@import "src/assets/stylesheets/tokens";
+
 .section {
+  background-color: $main-background-primary;
+  // background
   min-height: calc(100vh - 4.5rem);
   display: flex;
   align-items: center;
@@ -11,8 +15,18 @@
   //   padding: ${theme.spacing.xl} 0;
   // }
 
+  .title {
+    animation: fadeUp 0.5s ease-out forwards;
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    margin-bottom: 20px;
+    color: #ffffff;
+    line-height: 1.1;
+    letter-spacing: -0.02em; 
+  }
+
   .container {
     max-width: 1200px;
+    // padding: 1rem;
     margin: 0 auto;
     width: 95%;
     
@@ -27,7 +41,7 @@
   z-index: 1;
   max-width: 1000px;
   width: 100%;
-  // background: ${theme.colors.glass.background};
+  background: $main-background-secondary;
   backdrop-filter: blur(8px);
   border-radius: 20px;
   // padding: ${theme.spacing.lg};

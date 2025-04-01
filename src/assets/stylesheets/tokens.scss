@@ -1,13 +1,17 @@
 :root {
-    --main-palette-100: #ffffff;
-    --main-palette-200: #b7b7b7;
+    --main-palette-100: #101c29;
+    --main-palette-200: #0a1c3d;
     --main-palette-300: #8a8a8a;
-    --main-palette-400: #4e4e4e;
-    --main-palette-500: #000000;
+    --main-palette-400: #2868c6;
+    --main-palette-500: #91D2FA;
+    --main-palette-600: #CBA2EA;
+    --main-palette-600: #3f3381;
+    --main-palette-700: #1d1f5a;
 
 
-    --background-primary: #FFFFFF;
-    --background-secondary: #EAF0FB;
+
+    --background-primary: #101c29;
+    --background-secondary: #0a1c3d;
     
 
     
@@ -28,3 +32,9 @@ $main-200: var(--main-palette-200);
 $main-300: var(--main-palette-300);
 $main-400: var(--main-palette-400);
 $main-500: var(--main-palette-500);
+
+
+
+// background colors
+$main-background-primary: var(--background-primary);
+$main-background-secondary: var(--background-secondary);

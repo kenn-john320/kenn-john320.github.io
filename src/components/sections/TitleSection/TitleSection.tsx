@@ -1,5 +1,7 @@
 import * as React from 'react'
 import styles from './TitleSection.module.scss'
+import { lazy } from 'react';
+
 
 const TitleSection: React.FC = () => {
 
@@ -18,6 +20,11 @@ const TitleSection: React.FC = () => {
                         <p className={`${styles.description}`}>
                             Just a full stack developer in the making
                         </p>
+                        <div className={`${styles.socialMedia}`}>
+                            <a>
+
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
